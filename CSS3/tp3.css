@@ -1,0 +1,443 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-image: url(IMG3/FONDO3.jpg);      
+}
+
+header{
+    width: 1000px;
+    height:70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LOGO img {
+    width: 300px;
+    height: 70px;
+    float: left;
+    margin: 0.5em;    
+}
+
+#botonera{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+#botonera ul li{
+    display: inline;
+}
+
+#botonera ul li a{
+    padding: 10px;
+    background-color: rgba(248, 164, 9, 0.747);
+    color:rgb(14, 3, 3);
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:20px
+}
+
+/*Acá empezamos INICIO*/
+
+#INICIO{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(221, 156, 58, 0.185);
+    border-radius:20px;
+    text-align: justify;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#titulo1{
+    font-size: 25px;    
+}
+
+/*final*/
+
+#final{
+    width: 1000px;
+    height: 100px;
+    border-radius:20px;
+    text-align: justify;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+#imagen1 {
+    width: 380px;
+    height: 300px;
+    background-color: rgba(221, 156, 58, 0.185);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(IMG3/PUNAMARCA.jpeg);
+    background-size: cover;  
+    border-radius:20px;
+    padding: 1px;
+}
+
+#texto1{
+    width: 600px;
+    height: 300px;
+    float: right;
+    background-color:rgba(221, 156, 58, 0.185);
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius:20px;
+    text-align: justify;
+}
+
+#tit_texto1{
+    text-align: center;
+}
+
+#texto1_segundo {
+    font-size: 20px;
+}
+
+#imagen2 {
+    width: 380px;
+    height: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    background-image: url(IMG3/CAFAYATE.jpeg);
+    background-size: cover; 
+    border-radius:20px;
+    padding: 1px;
+}
+
+#texto2{
+    width: 600px;
+    height: 300px;
+    float: left;
+    background-color:rgba(221, 156, 58, 0.185);
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    border-radius:20px;
+    text-align: justify;
+}
+
+#tit_texto2{
+    text-align: center;
+}
+
+#texto2_segundo{
+    font-size: 20px;
+}
+
+#imagen3 {
+    width: 380px;
+    height: 300px;
+    background-image: url(IMG3/TILCARA.jpeg);
+    background-size: cover; 
+    float: left;
+    border-radius:20px;
+    padding: 1px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#destacado {
+    width: 600px;
+    height: 300px;
+    float: right;
+    background-color:rgba(221, 156, 58, 0.185);
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius:20px;
+    text-align: justify;
+}
+
+#contenido_destacado{
+        font-size: 20px;
+}
+
+#info {
+    width: auto;
+    height: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 20px;  
+    text-align: center;
+}
+
+#info2 {
+   font-size: 20px;  
+   text-align: center;
+}
+
+
+/*aca empieza responsive desde 600 hasta 1023*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+    header{
+        width: 580px; /*antes era 1000*/
+        height:140px; /*antes era 70*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    #LOGO img {
+        width: 300px;
+        height: 140;
+        margin: 1px;  
+        padding: 1px;    
+        float: none;
+    }    
+
+    #botonera {
+        width: 400px;
+        font-size: 10px;
+        float: none;
+    }
+
+    #botonera ul li{
+        display:inline-block;
+
+    }
+           
+    #botonera ul li a{
+        padding: auto;
+    }
+
+    /*Acá empezamos INICIO*/
+    
+    #INICIO{
+        width: 580px;
+        height: 120px;  
+        margin-top: 1px;
+        margin-bottom: 1em;
+             
+}
+    
+    #titulo1{
+        font-size: 20px; 
+        margin-top: auto;  
+        padding: auto;
+
+    }
+    
+    /*final*/
+    
+    #final{
+        width: 590px;
+        height: 400px;
+        margin-top: 2px;
+    }
+    
+    #imagen1 {
+        width: 255px;
+        background-position: center;
+        margin: auto;
+        padding:auto;
+    }
+    
+    #texto1{
+        width: 325px;
+        margin: 1px;
+        padding: 2px;
+        
+    }
+    
+    #tit_texto1{
+        text-align: center;
+    }
+    
+    #texto1_segundo {
+        font-size: 15px;
+    }
+    
+    #imagen2 {
+        width: 255px;
+        background-position: center;
+        margin: auto;
+        padding:auto;
+    }
+    
+    #texto2{
+        width: 325px;
+        margin: 1px;
+        padding: 2px;
+        
+    }
+    
+    #tit_texto2{
+        text-align: center;
+    }
+    
+    #texto2_segundo{
+        font-size: 15px;
+    }
+    
+    #imagen3 {
+        width: 255px;
+        background-position: center;
+        margin: auto;
+        padding:auto;
+    }
+    
+    #destacado {
+        width: 325px;
+        margin: 1px;
+        padding: 2px;        
+    }
+    
+    #contenido_destacado{
+            font-size: 15px;
+    }
+  
+    #info2 {
+       font-size: 15px;  
+       text-align: center;   
+        
+    }
+    
+}
+
+/* responsive hasta 599*/
+
+@media all and (max-width: 599px) {
+
+    header{
+        width: 90%; 
+        height:auto; 
+    }
+    
+    #LOGO img {
+        width: 100%;
+        height: auto;
+        float: none;
+        box-sizing: border-box;
+   }    
+
+    #botonera {
+        width: 90%;
+        height: auto;
+        font-size: 10px;
+        float: none;        
+    }
+
+    #botonera ul {
+        float: none;
+    }
+
+    #botonera ul li{
+        display: block;
+    }
+           
+    #botonera ul li a{
+        padding: auto;
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    /*Acá empezamos INICIO*/
+    
+    #INICIO{
+        width: 90%;
+        height: 100px;   
+        margin-top: 1px;
+        margin-bottom: 1em;
+         
+     }
+    
+    #titulo1{
+        font-size: 15px; 
+        padding: auto;
+        margin-top: auto;  
+    }
+    
+    /*final*/
+    
+    #final{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 1px;
+     }
+    
+    #imagen1 {
+        width: 100%;
+        height: 200px;
+        background-position:center;
+        float: none;
+    }
+    
+    #texto1{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #tit_texto1{
+        text-align: center;
+    }
+    
+    #texto1_segundo {
+        font-size: 15px;
+    }
+    
+    #imagen2 {
+        width: 100%;
+        height: 200px;
+        background-position:center;
+        float: none;
+    }
+    
+    #texto2{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    #tit_texto2{
+        text-align: center;
+    }
+    
+    #texto2_segundo{
+        font-size: 15px;
+    }
+    
+    #imagen3 {
+        width: 100%;
+        height: 200px;
+        background-position:center;
+        float: none;
+    }
+    
+    #destacado {
+        width: 100%;
+        height: auto;
+        float: none;    
+    }
+    
+    #contenido_destacado{
+            font-size: 15px;
+    }
+
+    #info2 {
+        font-size: 15px;  
+        text-align: center;
+     }
+    
+}
+
+
+
+
