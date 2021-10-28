@@ -1,6 +1,6 @@
 body {
     font-family: 'Titillium Web', sans-serif;
-    background-image: url(IMG3/FONDO3.jpg);      
+    background-image: url(../IMG3/FONDO3.jpg);      
 }
 
 header{
@@ -78,7 +78,7 @@ header{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-    background-image: url(IMG3/PUNAMARCA.jpeg);
+    background-image: url(../IMG3/PUNAMARCA.jpeg);
     background-size: cover;  
     border-radius:20px;
     padding: 1px;
@@ -110,7 +110,7 @@ header{
     margin-right: 10px;
     margin-bottom: 10px;
     float: right;
-    background-image: url(IMG3/CAFAYATE.jpeg);
+    background-image: url(../IMG3/CAFAYATE.jpeg);
     background-size: cover; 
     border-radius:20px;
     padding: 1px;
@@ -139,7 +139,7 @@ header{
 #imagen3 {
     width: 380px;
     height: 300px;
-    background-image: url(IMG3/TILCARA.jpeg);
+    background-image: url(../IMG3/TILCARA.jpeg);
     background-size: cover; 
     float: left;
     border-radius:20px;
